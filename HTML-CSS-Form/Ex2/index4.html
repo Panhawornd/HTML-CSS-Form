@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:checked {
+            accent-color: rgb(34, 194, 34);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        input:indeterminate {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="check-box1">Checked</label>
+        <input type="checkbox" id="check-box1" checked><br>
+        <label for="check-box2">Not Check</label>
+        <input type="checkbox" id="check-box2"><br>
+        <label for="check-box3">Indeterminate</label>
+        <input type="checkbox" id="check-box3">
+    </form>
+</body>
+</html>
